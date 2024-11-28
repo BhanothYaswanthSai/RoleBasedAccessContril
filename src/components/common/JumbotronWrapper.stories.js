@@ -2,17 +2,19 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import JumbotronWrapper from './JumbotronWrapper';
 
-export default {
+const JumbotronWrapperStory = {
 	component: JumbotronWrapper,
 	title: 'JumbotronWrapper',
 };
+
+export default JumbotronWrapperStory;
 
 export const DefaultDescription = () => (
 	<JumbotronWrapper
 		onClick={action('clicked')}
 		title="Jumbotron Wrapper with default description"
 	/>
-	);
+);
 
 export const WithDescription = () => (
 	<JumbotronWrapper
@@ -34,4 +36,3 @@ export const WithChildren = () => (
 		<h4>Child 4</h4>
 	</JumbotronWrapper>
 );
-

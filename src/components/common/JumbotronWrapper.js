@@ -9,7 +9,7 @@ const JumbotronWrapper = (props) => {
 			<Jumbotron>
 				<h1>{props.title}</h1>
 				<p>{props.description}</p>
-				<div style={{color: '#0056b3'}}>{props.children}</div>
+				<div style={{ color: '#0056b3' }}>{props.children}</div>
 			</Jumbotron>
 		</Col>
 	);
@@ -26,4 +26,5 @@ JumbotronWrapper.defaultProps = {
 	col: { md: '6' }
 };
 
-export default memo(CenterToScreen(JumbotronWrapper));
+const EnhancedJumbotronWrapper = memo(CenterToScreen(JumbotronWrapper));
+export default EnhancedJumbotronWrapper;
