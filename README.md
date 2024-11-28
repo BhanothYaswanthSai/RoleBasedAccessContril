@@ -3,7 +3,7 @@
 ## Links
 [Demo App](https://yrbac.netlify.app/) 
 <br />
-[Medium Story Version-2](https://medium.com/@umairkz52/role-based-authorization-role-based-access-control-v-2-in-react-js-cb958e338f4b)
+
 
 
 ## Description
