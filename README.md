@@ -1,7 +1,7 @@
 ![](https://cdn-images-1.medium.com/max/1600/1*QlkpHjL9Cn-kiQXap1sweA.jpeg)
 
 ## Links
-[Demo App](https://umair-khanzada.github.io/role-based-access-control/) 
+[Demo App](https://yrbac.netlify.app/) 
 <br />
 [Medium Story Version-2](https://medium.com/@umairkz52/role-based-authorization-role-based-access-control-v-2-in-react-js-cb958e338f4b)
 
